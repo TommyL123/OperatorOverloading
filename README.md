@@ -1,12 +1,12 @@
-#HW7 Operator Overloading 
+# HW7 Operator Overloading 
 
-#First-Name Last-Name
+# First-Name Last-Name
 
 TODO - Update your name in this `README.md`.
 
 TODO - Add a badge from travis CI here
 
-##Problem statement:
+## Problem statement:
 Overload the operators +,-,* in the class Matrix. Look into the file `Matrix.h` for more details.
 
  
@@ -14,6 +14,7 @@ Overload the operators +,-,* in the class Matrix. Look into the file `Matrix.h` 
 * `Matrix.h` Overload the necesseray Operators
 * You can also modify `main.cpp` to debug your program.
 * `README.md` to add your name and badge
+
 Please **DO NOT MODIFY** any other files. Modifying any other file will result in penalty to your grade.
       
 ## Exceptions to be thrown
