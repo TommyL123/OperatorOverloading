@@ -1,0 +1,5 @@
+include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
+
+add_executable(05_runHW7MatrixMultiplicationTest matrix_multiplication_tests.cpp)
+target_link_libraries(05_runHW7MatrixMultiplicationTest gtest gtest_main hw7_library)
+
