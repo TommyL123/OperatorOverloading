@@ -184,20 +184,99 @@ void Matrix<T>::printMatrix() {
 template<class T>
 Matrix<T> Matrix<T>::operator+(const Matrix<T> &rhs) {
     //TODO
+
+    {
+
+        if (rows != rhs.rows || cols != rhs.cols)
+        {
+            throw exception();
+        }
+
+        Matrix<T> newMatrix(rows, cols);
+
+        for(int x=0; x<rows; x++)
+        {
+            for(int y=0; y<cols; y++)
+
+                newMatrix.matrix[x][y] = matrix[x][y] + rhs.matrix[x][y];
+        }
+
+        return newMatrix;
+
+    }
+
 }
 
 template<class T>
 Matrix<T> Matrix<T>::operator-(const Matrix<T> &rhs) {
     //TODO
+
+    {
+
+        if (rows != rhs.rows || cols != rhs.cols)
+        {
+            throw exception(); //exception thrown in if statement if rows does not equal the rhs.rows
+        }
+
+
+
+        Matrix<T> newMatrix(rows, cols);
+
+        for(int x=0; x<rows; x++)
+
+        {
+            for(int y=0; y<cols; y++)
+
+                newMatrix.matrix[x][y]=matrix[x][y] - rhs.matrix[x][y];
+        }
+
+        return newMatrix;
+
+    }
 }
 
 template<class T>
 Matrix<T> Matrix<T>::operator*(const Matrix<T> &rhs) {
     //TODO
+    {
+
+        if ( cols != rhs.rows) //implement if else statement to check if the colums does not equal the rhs.rows
+        {
+            throw exception();
+        }
+
+        Matrix<T> newMatrix(rows, rhs.cols);
+
+        for(int x=0; x<rows; x++) //for loop that traverses through integer x, less than rows as parameter.
+
+        {
+            for(int y=0; y<rhs.cols; y++)
+            {
+               
+               
+                newMatrix.matrix[x][y]=0;
+
+                for(int z=0; z<cols; z++)
+
+                    newMatrix.matrix[x][y] = newMatrix.matrix[x][y] + (matrix[x][z] * rhs.matrix[z][y]);
+            }
+        }
+        return newMatrix;
+
+    }
 }
 
 template<class T>
 Matrix<T> Matrix<T>::operator*(const T &scalar) {
     //TODO
+
+    for(int x = 0; x < rows; ++x) //implement for loop
+
+    {
+        for(int y=0; y<cols; y++)
+            matrix[x][y] *= scalar;
+    }
+    return *this;
+
 }
 

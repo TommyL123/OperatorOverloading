@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gtest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\hw7_tests\;CMake Files\hw7_tests\lib\;CMake Files\hw7_tests\lib\gtest-1.7.0\;CMake Files\hw7_tests\lib\gtest-1.7.0\cmake\;CMake Files\hw7_tests\00_BasicTest\;CMake Files\hw7_tests\01_BasicConstructorTest\;CMake Files\hw7_tests\02_AdditionTests\;CMake Files\hw7_tests\03_SubtractionTests\;CMake Files\hw7_tests\04_ScalarMultiplicationTests\;CMake Files\hw7_tests\05_MatrixMultiplicationTests\;CMake Files\hw7_tests\06_MatrixMultiplicationVariableSizesTests\;CMake Files\hw7_tests\07_BasicExceptionTest\;CMake Files\hw7_tests\08_AdditionExceptionTest\;CMake Files\hw7_tests\09_SubtractionExceptionTest\;CMake Files\hw7_tests\10_MultiplicationExceptionTest\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw7/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw7/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw7/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw7/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw7/cmake-build-debug/hw7_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/lib/gtest-1.7.0/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/lib/gtest-1.7.0/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/lib/gtest-1.7.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\lib\gtest-1.7.0\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/lib/gtest-1.7.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\lib\gtest-1.7.0\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/lib/gtest-1.7.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\lib\gtest-1.7.0\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/lib/gtest-1.7.0/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\hw7_tests\lib\gtest-1.7.0\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/lib/gtest-1.7.0/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\hw7_tests\lib\gtest-1.7.0\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/lib/gtest-1.7.0/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\hw7_tests\lib\gtest-1.7.0\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/00_BasicTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\00_BasicTest\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/00_BasicTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\00_BasicTest\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/01_BasicConstructorTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\01_BasicConstructorTest\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/01_BasicConstructorTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\01_BasicConstructorTest\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/02_AdditionTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\02_AdditionTests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/02_AdditionTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\02_AdditionTests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/03_SubtractionTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\03_SubtractionTests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/03_SubtractionTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\03_SubtractionTests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/04_ScalarMultiplicationTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\04_ScalarMultiplicationTests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/04_ScalarMultiplicationTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\04_ScalarMultiplicationTests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/05_MatrixMultiplicationTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\05_MatrixMultiplicationTests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/05_MatrixMultiplicationTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\05_MatrixMultiplicationTests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/06_MatrixMultiplicationVariableSizesTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\06_MatrixMultiplicationVariableSizesTests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/06_MatrixMultiplicationVariableSizesTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\06_MatrixMultiplicationVariableSizesTests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/07_BasicExceptionTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\07_BasicExceptionTest\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/07_BasicExceptionTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\07_BasicExceptionTest\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/08_AdditionExceptionTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\08_AdditionExceptionTest\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/08_AdditionExceptionTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\08_AdditionExceptionTest\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/09_SubtractionExceptionTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\09_SubtractionExceptionTest\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/09_SubtractionExceptionTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\09_SubtractionExceptionTest\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/10_MultiplicationExceptionTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\10_MultiplicationExceptionTest\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/hw7_tests/10_MultiplicationExceptionTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw7_tests\10_MultiplicationExceptionTest\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw7/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
