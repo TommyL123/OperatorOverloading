@@ -4,7 +4,15 @@
 
 TODO - Update your name in this `README.md`.
 
+
+// Tommy Lik
+
+
 TODO - Add a badge from travis CI here
+
+
+// [![Build Status](https://travis-ci.com/csc340-spring-2017/TommyL123-hw7.svg?token=t6yXgSazaGDsBYommHFk&branch=master)](https://travis-ci.com/csc340-spring-2017/TommyL123-hw7)
+
 
 ## Problem statement:
 Overload the operators +,-,* in the class Matrix. Look into the file `Matrix.h` for more details.
